@@ -1,1 +1,1 @@
-![equation][/images/1.gif]
+![equation](/images/1.gif)
