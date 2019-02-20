@@ -9,7 +9,7 @@ The sketch of the derivation is as follows: Consider the inner product ![Equatio
     <img src="./images/5.PNG">
 </p>
 
-Equation step 2 understand: 
-<p align="center">
+**Equation step 2 understand:** 
+<p>
     <img src="./images/4.PNG">
 </p>
