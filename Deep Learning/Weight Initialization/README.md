@@ -4,10 +4,10 @@
 The sketch of the derivation is as follows: Consider the inner product ![Equation1](./images/1.PNG) between the weights `w` and input `x`, which gives the raw activation of a neuron before the non-linearity. We can examine the variance of `s`:
 
 <p align="center">
-    <img src="./images/2.PNG">
-    <img src="./images/3.PNG">
-    <img src="./images/5.PNG">
+    <img src="./images/2.PNG"/>
 </p>
+<img src="./images/3.PNG"/>
+<img src="./images/5.PNG"/>
 
 **Equation step 2 understand:** 
 <p>
