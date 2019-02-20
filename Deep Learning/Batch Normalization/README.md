@@ -78,6 +78,7 @@ At each timestep we update the running averages for mean and variance using
 an exponential decay based on the momentum parameter:
 
 ```running_mean = momentum * running_mean + (1 - momentum) * sample_mean```
+
 ```running_var = momentum * running_var + (1 - momentum) * sample_var```
 
 Note that the batch normalization paper suggests a different test-time
@@ -164,6 +165,7 @@ Z cuối cùng được tính bằng công thức:
 Tại mỗi layer, `running_mean` và `running_var` được khởi tạo, trong mỗi lần trainning 2 giá trị này lại được cập nhật theo training batch. `running_mean` và `running_var` tại các layer là riêng biệt. Khi training, `running_mean` và `running_var` được cập nhật theo exponential decay với tham số là `momentum`. Giá trị `sample_mean` và `sample_var` tương ứng là giá trị kỳ vọng và phương sai của training batch.
 
 ```running_mean = momentum * running_mean + (1 - momentum) * sample_mean```
+
 ```running_var = momentum * running_var + (1 - momentum) * sample_var```
 
 Tại test phase, sau khi tính được `Z`, ta tiến hành tính toán theo công thức như sau tại mỗi layer:
