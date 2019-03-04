@@ -4,5 +4,7 @@
 - Created NLP notes at 2019/02/19
 - Created Scrapy notes at 2019/02/19
 - Created Deep Learning notes at 2019/02/20
-    1. Added weight initialization
-    2. Added batch normalization
+    1. Added Weight initialization
+    2. Added Batch normalization
+    3. Added Dropout
+- Created Decorators note for Python at 2019/03/04
