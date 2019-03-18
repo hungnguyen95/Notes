@@ -10,3 +10,5 @@
 - Created Decorators note for Python at 2019/03/04
 - Created Entropy and Cross-entropy at 2019/03/10
 - Created Convolution forward and backward at 2019/03/14
+- Created Probability and Random Variable at 2019/03/17
+- Created Multiple Random Variable at 2019/03/18
