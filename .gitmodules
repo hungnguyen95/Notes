@@ -1,3 +1,6 @@
 [submodule "Data-Science-CheatSheet"]
 	path = Data-Science-CheatSheet
 	url = https://github.com/abhat222/Data-Science--Cheat-Sheet.git
+[submodule "reinforcement-learning"]
+	path = reinforcement-learning
+	url = https://github.com/dennybritz/reinforcement-learning.git
