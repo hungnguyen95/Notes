@@ -184,7 +184,7 @@ The formula for positional encoding is described in the paper. You can see the c
 
 Explaination of **positional encoding**:
 
-![](./images/41.png)
+![](./images/41.PNG)
 
 ## **The Residuals**
 
