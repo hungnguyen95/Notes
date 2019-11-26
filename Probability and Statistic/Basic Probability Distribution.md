@@ -49,4 +49,4 @@
 ![](./images/67.PNG)
 
 # Reference
-[The link between Poisson and Exponential distribution](https://medium.com/swlh/the-link-between-poisson-and-exponential-distribution-817e92344d1b)
+1. [The link between Poisson and Exponential distribution](https://medium.com/swlh/the-link-between-poisson-and-exponential-distribution-817e92344d1b)
