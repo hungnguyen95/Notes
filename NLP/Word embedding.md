@@ -121,3 +121,6 @@ The size of the context window determines how many words before and after a give
 Here is an example of Skip-Gram with context window of size 2:
 
 ![](./images/57.png)
+
+## Reference
+[Word embeddings: exploration, explanation, and exploitation](https://towardsdatascience.com/word-embeddings-exploration-explanation-and-exploitation-with-code-in-python-5dac99d5d795)
