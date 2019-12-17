@@ -47,3 +47,6 @@
 ## **Normal (Phân phối chuẩn)**
 
 ![](./images/67.PNG)
+
+# Reference
+1. [The link between Poisson and Exponential distribution](https://medium.com/swlh/the-link-between-poisson-and-exponential-distribution-817e92344d1b)
