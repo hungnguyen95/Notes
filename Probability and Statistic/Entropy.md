@@ -84,6 +84,9 @@ Công thức bên trên mô tả kích cỡ tối thiểu cần thiết để m�
     <img src="./images/10.png">
 </p>
 
+Vậy với tin nhắn xuất hiện chỉ 1 lần, ta cần **-log[2]1/N** bits để mã hóa tin nhắn đó. (Tin nhắn gửi đi càng ít thì đc mã hóa với số bits càng cao)
+Với các tin nhắn xuất hiện nhiều hơn thì xác suất gửi tin của nó lớn hơn, **-log[2]P** là số bits sẽ được dùng để mã hóa tin nhắn này.
+
 Kết hợp với công thức tính kích cỡ trung bình đã biết ở phần trước, ta được kích thước mã hóa trung bình nhỏ nhất - đây chính là entropy:
 
 <p align='center'>
