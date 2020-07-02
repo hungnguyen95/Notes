@@ -75,7 +75,10 @@ Như vậy, chúng ta đã biết cách tính độ dài mã hóa trung bình r�
 # Cách tính kích cỡ mã hóa trung bình nhỏ nhất.
 Ta có thể ngồi thử nhiều lần và ngồi tính tay ra độ dài mã hóa trung bình của từng trường hợp rồi chọn xem cách nào cho độ dài nhỏ nhất… tuy nhiên cách này chắc chắn không ổn. Vậy nếu ta có 1 phân phối xác suất của dữ liệu, có cách nào để tính luôn ra độ dài trung bình nhỏ nhất hay không ? Giả sử ta có 8 kiểu tin nhắn khác nhau, mỗi 1 loại xuất hiện với xác xuất bằng nhau (p=1/8 = 12.5%). 1 bit thì mã hóa được 2 giá trị. thế 2 bit mã hóa được 4, 3 bit được 8. Như vậy ta chỉ cần 3 bit là mã hóa được, thêm 1 bit vào cũng không có thêm tác dụng gì.
 
-Thông thường, với N giá trị, ta cần **log[2]N** bit để mã hóa. Hay với 1 loại tin nhắn xuất hiện 1 trong N lần gửi tin, công thức bên trên mô tả kích cỡ tối thiểu cần thiết để mã hóa. Và vì **P=1/N** là xác xuất của loại tin nhắn đó, phương trình có thể viết lại thành
+Thông thường, với N giá trị, ta cần **log[2]N** bit để mã hóa. 
+Vì bit chỉ có thể là 0 hoặc 1 nên ta cần lấy logarit cơ số 2 để tìm ra số bit cần thiết để mã hóa N giá trị.
+Giả sử trong N lần gửi tin, tin nhắn **X** xuất hiện duy nhất 1 lần (loại tin nhắn xuất hiện 1 trong N lần gửi tin), xác suất tin nhắn này xuất hiện trong N lần gửi tin là **P=1/N**. 
+Công thức bên trên mô tả kích cỡ tối thiểu cần thiết để mã hóa. Và vì **P=1/N** là xác xuất của loại tin nhắn đó, phương trình có thể viết lại thành
 
 <p align='center'>
     <img src="./images/10.png">
